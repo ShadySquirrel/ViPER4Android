@@ -1,2 +1,3 @@
 *.zip
 tests/*
+zipper.sh
