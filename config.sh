@@ -103,14 +103,13 @@ set_permissions() {
 
 # This function blacklists modules/effects known to mess with V4A
 blacklist_effects() {
-  EFFECT_LIST=(
-    "/system/priv-app/MusicFX"
-    "/system/priv-app/AudioFX"
-    "/system/app/DiracAudioControlService"
-    "/system/app/DiracManager"
-  )
+  EFFECT_LIST="
+    system/priv-app/MusicFX
+    /system/priv-app/AudioFX
+    /system/app/DiracAudioControlService
+    /system/app/DiracManager"
 
-  for effect in ${EFFECT_LIST[*]}; do
+  for effect in $EFFECT_LIST; do
     if [ -d "$effect" ]; then
       name=$(basename "$effect")
       ui_print "-> Found $name, blacklisting"
