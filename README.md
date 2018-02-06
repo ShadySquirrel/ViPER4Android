@@ -56,6 +56,7 @@ Also, be ready to edit some files and to test changes, because I have two device
 **ANOTHER FAIR WARNING**: I really expect from you to know how to grab logs, debug issues etc. That's 'Android power user 101' and you should know all of that before you decide to root your phone and/or run custom firmware on it. So no, I won't provide any debugging and logging tutorials, you have Google for that.
 
 ## Module changelog
+* 06.02.2018 - Fix for shells not supporting bash arrays
 * 27.01.2018 - Installation logic rewrite
 	* Complete configuration edit logic rewrite - thanks to [Zackptg5](https://github.com/Zackptg5) for code and suggestions! Here is what's new:
 		* Script is now checking for existing entries, and removing them before writing new ones
