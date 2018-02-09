@@ -12,12 +12,12 @@ Uses ViPER4Android 2.5.0.4 driver and **includes** [ViPER4Android FX Materialize
 
 **WARNINGS/INFO**: 
 1. App is installed to `/system/priv-app`, ofc. systemlessly, and may clash with app systemizer modules. **If you experience that, uninstall the module, remove app from the zip, reinstall module and install the app manually**
-2. **This module isn't compatible with Audio Mod library, nor any other sound mod**. From my experience, you won't notice any sound quality increases or benefits from running multiple sound effects, so no support for that. Any issues coming from you trying to run my module and other sound mods, will be automatically closed.
+2. **This module is compatible with *new* Audio Mod library**. Combining with with other audio mods, *without AML* will produce issues. Consider that before reporting.
 3. This module doesn't require permissive sepolicy; if you still encounter SEPolicy issues, please refer to [support section](README.md#support) of this document.
 
 ## Requirements
 * Android 5.0+ with fully functional Magisk installation,
-* **No other sound mods installed** - if you have any, remove them before this module is installed,
+* **No other non-AML sound mods installed** - if you have any non-AML sound mods, remove them before this module is installed,
 * ARM/ARM64, x86 or x86_64 device with NEON support.
 
 ## Compatibility
