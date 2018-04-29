@@ -12,7 +12,7 @@ Uses ViPER4Android 2.5.0.4 driver and **includes** ViPER4Android FX app, so you 
 
 **NOTE**: If you're searching for module version still using V4A Materialized app, search no more. You can find it [here](https://github.com/ShadySquirrel/ViPER4Android/releases), just find ones marked as 'materialized'.
 
-**WARNINGS/INFO**: 
+**WARNINGS/INFO**:
 1. App is installed to `/system/priv-app`, ofc. systemlessly, and may clash with app systemizer modules. **If you experience that, uninstall the module, remove app from the zip, reinstall module and install the app manually**
 2. **This module is compatible with *new* Audio Mod library**. Combining with with other audio mods, *without AML* will produce issues. Consider that before reporting.
 3. This module doesn't require permissive sepolicy; if you still encounter SEPolicy issues, please refer to [support section](README.md#support) of this document.
@@ -56,6 +56,7 @@ Also, be ready to edit some files and to test changes, because I have two device
 **ANOTHER FAIR WARNING**: I really expect from you to know how to grab logs, debug issues etc. That's 'Android power user 101' and you should know all of that before you decide to root your phone and/or run custom firmware on it. So no, I won't provide any debugging and logging tutorials, you have Google for that.
 
 ## Module changelog
+* 29.04.2018 - Update for Magisk 16.4 (post-fs scripts moved to late_start, see 67060cf)
 * 06.02.2018 - Fix for shells not supporting bash arrays
 * 27.01.2018 - Installation logic rewrite
 	* Complete configuration edit logic rewrite - thanks to [Zackptg5](https://github.com/Zackptg5) for code and suggestions! Here is what's new:
