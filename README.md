@@ -56,6 +56,7 @@ Also, be ready to edit some files and to test changes, because I have two device
 **ANOTHER FAIR WARNING**: I really expect from you to know how to grab logs, debug issues etc. That's 'Android power user 101' and you should know all of that before you decide to root your phone and/or run custom firmware on it. So no, I won't provide any debugging and logging tutorials, you have Google for that.
 
 ## Module changelog
+* 07.05.2018 - [TheComputerGuy96](https://github.com/TheComputerGuy96)'s merge request - one slashy runaway was found.
 * 29.04.2018 - Update for Magisk 16.4 (post-fs scripts moved to late_start, see 67060cf)
 * 06.02.2018 - Fix for shells not supporting bash arrays
 * 27.01.2018 - Installation logic rewrite
