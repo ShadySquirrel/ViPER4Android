@@ -1,4 +1,6 @@
-# ViPER4Android Magisk module
+# [ABANDONED] ViPER4Android Magisk module
+
+#**WARNING**: THIS MODULE ISN'T MAINTAINED ANYMORE. IT WILL WORK AS LONG AS MAGISK TEMPLATE DOESN'T CHANGE, BUT THERE WILL BE NO MORE UPDATES AND/OR SUPPORT. Thank you for understanding.
 
 This is a simple V4A module, for no frills setup - you simply grab it, flash it and use it.
 
